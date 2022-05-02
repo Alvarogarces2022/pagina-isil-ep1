@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+@import url(css/fontawesome-free-6.1.1-web/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,900&display=swap');
+
+:root {
+    -color1: #030610;
+    --color2: #b5b5b5;
+    --color3: #282828;
+    --color4: #f00;
+}
+
+body {
+    /* Hace refencia a todo el contenido de la pagina web*/
+    background-color: var(--color3);
+    /*color de fondo*/
+    color: var(--color2);
+    /*color de texto*/
+    font-family: 'Jost', sans-serif;
+    /* tipo de letra o fuente*/
+    font-size: 18px;
+    /*tamaño de la letra en pixeles*/
+    margin: 0;
+    /* elimina el margen por defecro de body*/
+}
+
+p {
+    margin-top: 0%;
+    margin-bottom: 25px;
+    max-width: 1900px;
+    text-align: left;
+}
+
+img {
+    display: block;
+    /*asi desaparece los espacios debajo de las imagenes*/
+
+}
+
+h1,
+h2,
+h3 {
+    /*seprarado por comas, definimos una regla para varios objetos*/
+    margin: 0%;
+    /*elimna el margen por defecto de los encabezados*/
+    text-align: center;
+}
+
+h1 {
+    font-size: 110px;
+    /*tamaño de letra*/
+    font-weight: 700;
+    /*para indicar el grosor de la letra*/
+    letter-spacing: -3px;
+    /*espaciado entre letra y letra*/
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-family: 'Jost', sans-serif;
+}
+
+h3 {
+    font-size: 40px;
+    /*tamaño de la letra*/
+    font-weight: 700;
+    /*grosor de la lerta*/
+    text-transform: uppercase;
+    /*Muestra el texto en mayuscula*/
+    text-align: left;
+
+}
+
+h4{
+    font-size: 25px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h5{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#main-header {
+    background-color: var(--color4);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#historia {
+    background-color: var(--color2);
+    color: var(--color3);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.container {
+    max-width: 1920px;
+    /*ancho maximo*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+
+}
+
+
+.padded {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.cat{
+    max-width: 70%;
+    height: auto;
+}
+.img-header {
+    max-width: 15%;
+    height: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+img {
+    display: block;
+    overflow: hidden;
+
+}
+
+
+#superheroeshistoricos {
+    background-color: var(--color2);
+    color: var(--color3);
+    text-align: left;
+    letter-spacing: -1px;
+}
+
+#villanoshistoricos {
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+#main-banner {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.container {
+    max-width: 1900px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.texto-importante {
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1em;
+    color: var(--color4);
+}
+
+.mega-texto {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1em;
+    color: var()
+}
+
+#videojuegos {
+    background-color: var(--color2);
+    color: var(--color3);
+
+}
+
+#main-footer {
+    background-color: var(--color3);
+    color: var(--color2);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.padded {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#programasdetelevision {
+    background-color: var(--color3);
+    color: var(--color2);
+}
+
+#estreno {
+    background-image: url(../EP1/imagenes/estreno.jpeg);
+    background-size: 100%;
+
+}
+.alinear-verticalmente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#marvelnews{
+    background-color: var(--color2);
+    text-align: center;
+  color: var(--color3);
+    margin-left: auto;
+    margin-right: auto;
+}
